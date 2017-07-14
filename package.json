@@ -1,0 +1,24 @@
+{
+  "name": "node_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fresh":"node clearDB.js",
+    "bootstrap":"node bootstrapBears.js"
+  },
+  "author": "Jafar Naqvi <naqvi.jafar91@gmail.com> (https://github.com/naqvijafar91)",
+  "license": "ISC",
+  "dependencies":{
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.4.1",
+    "body-parser": "~1.13.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.0",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
